@@ -1,0 +1,71 @@
+{
+  "_from": "weisun-cli",
+  "_id": "weisun-cli@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-G1K/EbXnMfzz95kRZihogu/1Ov8u1+ErK4Wn1GmF4mPNU7d94D/mstMKqoOH+scYEY0xbRiRuhr3L+pvqVVu4g==",
+  "_location": "/weisun-cli",
+  "_phantomChildren": {
+    "cli-spinners": "2.6.1",
+    "color-convert": "2.0.1",
+    "external-editor": "3.1.0",
+    "is-fullwidth-code-point": "3.0.0",
+    "lodash": "4.17.21",
+    "mute-stream": "0.0.8",
+    "onetime": "5.1.2",
+    "run-async": "2.4.1",
+    "signal-exit": "3.0.7",
+    "supports-color": "7.2.0",
+    "through": "2.3.8",
+    "wcwidth": "1.0.1"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "weisun-cli",
+    "name": "weisun-cli",
+    "escapedName": "weisun-cli",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://192.168.100.199:4873/weisun-cli/-/weisun-cli-1.0.3.tgz",
+  "_shasum": "e1b43c7aa5b5c5960f02baa1c3cac73cfef5d4d3",
+  "_spec": "weisun-cli",
+  "_where": "D:\\Codes\\crcc-frontend-cli",
+  "author": {
+    "name": "wei.sun"
+  },
+  "bin": {
+    "ws": "bin/ws.js",
+    "add": "bin/ws-add.js",
+    "init": "bin/ws-init.js",
+    "delete": "bin/ws-delete.js",
+    "list": "bin/ws-list.js",
+    "create": "bin/ws-create.js"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.3.3",
+    "ora": "^4.0.5"
+  },
+  "deprecated": false,
+  "description": "",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "weisun-cli",
+  "scripts": {
+    "add": "node ./bin/ws-add.js",
+    "create": "node ./bin/ws-create.js",
+    "delete": "node ./bin/ws-delete.js",
+    "init": "node ./bin/ws-init.js",
+    "list": "node ./bin/ws-list.js"
+  },
+  "version": "1.0.3"
+}
